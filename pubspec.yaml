@@ -1,19 +1,16 @@
-name: api_tes2
-description: "A new Flutter project."
-publish_to: 'none'
-version: 0.1.0
+name: weather_app
+description: App de clima con diseño exacto
+version: 1.0.0+1
 
 environment:
-  sdk: ^3.5.3
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-
-dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_lints: ^4.0.0
+  google_fonts: ^6.1.0  # Para League Spartan
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/
